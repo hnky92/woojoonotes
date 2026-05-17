@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도쿠시마 2박 3일 감성 미식 마스터 일정표</title>
+    <style>
+        :root {
+            --text-color: #2d3748;
+            --border-color: #e2e8f0;
+            --day1-color: #2b6cb0;
+            --day1-bg: #ebf8ff;
+            --day2-color: #276749;
+            --day2-bg: #f0fff4;
+            --day3-color: #744210;
+            --day3-bg: #fffaf0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #edf2f7;
+            margin: 0;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1a365d;
+            font-size: 1.6rem;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #4a5568;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+
+        /* 일자별 카드 디자인 */
+        .day-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+        }
+
+        .day-card.day1 { border-top: 6px solid var(--day1-color); }
+        .day-card.day2 { border-top: 6px solid var(--day2-color); }
+        .day-card.day3 { border-top: 6px solid var(--day3-color); }
+
+        .day-header {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .day1 .day-header { color: var(--day1-color); }
+        .day2 .day-header { color: var(--day2-color); }
+        .day3 .day-header { color: var(--day3-color); }
+
+        /* 테이블 공통 디자인 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 12px 10px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f7fafc;
+            color: #4a5568;
+            font-weight: 600;
+        }
+
+        /* 뱃지 및 하이라이트 */
+        .time-badge {
+            font-weight: bold;
+            color: #4a5568;
+            background: #edf2f7;
+            padding: 2px 6px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .info-tag {
+            font-size: 0.8rem;
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-top: 4px;
+            font-weight: bold;
+        }
+        .tag-duration { background-color: #edf2f7; color: #4a5568; }
+        .tag-next { background-color: #fff5f5; color: #c53030; }
+        .tag-optional { background-color: #feebc8; color: #c05621; }
+        .pay-cash { color: #dd6b20; font-weight: bold; }
+        .pay-card { color: #319795; font-weight: bold; }
+        .map-link { color: #2b6cb0; text-decoration: underline; font-weight: bold; }
+
+        @media screen and (max-width: 600px) {
+            table, thead, tbody, th, td, tr { display: block; }
+            thead tr { position: absolute; top: -9999px; left: -9999px; }
+            tr { border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 15px; padding: 10px; }
+            td { border: none; padding: 6px 5px; }
+            td:nth-of-type(1) { border-bottom: 1px solid #edf2f7; padding-bottom: 8px; margin-bottom: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🏙️ 도쿠시마 2박 3일 감성 미식 마스터 일정표</h1>
+    <div class="subtitle">도보 20분 실전 검증 및 미식 오픈런 반영 (클릭 시 구글맵 자동 연동)</div>
+
+    <!-- ==================== 1일차 카드 ==================== -->
+    <div class="day-card day1">
+        <div class="day-header">📅 1일 차 (목요일) : 시내 입성 및 역전 야경 탐방</div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 15%;">시간</th>
+                    <th style="width: 55%;">일정 및 미식 내용</th>
+                    <th style="width: 30%;">소요 시간 및 이동</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="time-badge">15:15</span></td>
+                    <td><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=도쿠시마+아와오도리+공항" target="_blank">📍 도쿠시마 공항</a> 도착<br>• 입국 수속 및 1층 안내소에서 <strong>3일 무료 버스 패스</strong> 수령</td>
+                    <td><span class="info-tag tag-duration">⏱️ 수속 약 60분</span><br><span class="info-tag tag-next">🚌 리무진 버스 (30분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">16:45</span></td>
+                    <td><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=JR+Hotel+Clement+Tokushima" target="_blank">📍 JR 호텔 클레멘트 도쿠시마</a> 체크인<br>• 리무진 버스 정문 하차 후 가볍게 방에 짐 풀기</td>
+                    <td><span class="info-tag tag-duration">⏱️ 정비 약 30분</span><br><span class="info-tag tag-next">🏃 도보 이동 (2분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">17:15</span></td>
+                    <td>🛍️ <strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Amico+Tokushima" target="_blank">아미코(Amico) 빌딩</a> 구경</strong><br>• 숙소 바로 앞! 5층 오락실, 대형 가챠숍 코너에서 동전 넣으며 첫날 워밍업 구경</td>
+                    <td><span class="info-tag tag-duration">⏱️ 쇼핑 약 65분</span><br><span class="info-tag tag-next">🏃 도보 이동 (3분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">18:30</span></td>
+                    <td>🍜 <strong>저녁 1차: <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=도쿠시마+라멘+멘오+본점" target="_blank">[멘오 본점 라멘]</a></strong><br>• 진한 간장 돈골 육수 + 짭조름한 삼겹살 조합의 도쿠시마 정통 라멘<br>🎫 <span class="pay-cash">현금 (식권기)</span></td>
+                    <td><span class="info-tag tag-duration">⏱️ 식사 약 60분</span><br><span class="info-tag tag-next">🏃 도보 이동 (10분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">19:45</span></td>
+                    <td>🌌 <strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=아와오도리+회관" target="_blank">아와오도리 회관</a> & <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=비잔+로프웨이" target="_blank">비잔 로프웨이</a> 야경</strong><br>• 공연은 패스! 로비 가볍게 둘러본 후 케이블카 타고 정상행<br>💳 <span class="pay-card">트래블월렛 가능</span></td>
+                    <td><span class="info-tag tag-duration">⏱️ 관람 약 75분</span><br><span class="info-tag tag-next">🏃 도보 이동 (10분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">21:15</span></td>
+                    <td>🍻 <strong>저녁 2차: 역전 로컬 이자카야</strong><br>• 명물 토종닭인 '아와오도리' 닭구이에 시원한 맥주 야식 타임</td>
+                    <td><span class="info-tag tag-duration">⏱️ 자유 마감</span><br><span class="info-tag tag-next">🏃 호텔 복귀 (도보)</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ==================== 2일차 카드 ==================== -->
+    <div class="day-card day2">
+        <div class="day-header">📅 2일 차 (금요일) : 역전 디저트 선공략 & 이온몰 폭풍 쇼핑 데이</div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 15%;">시간</th>
+                    <th style="width: 55%;">일정 및 미식 내용</th>
+                    <th style="width: 30%;">소요 시간 및 이동</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="time-badge">09:00</span></td>
+                    <td>🍳 <strong>호텔 조식 스타트</strong><br>• 10시 마감 전까지 9시부터 넉넉하고 느긋하게 호텔 뷔페 만끽</td>
+                    <td><span class="info-tag tag-duration">⏱️ 식사 약 75분</span><br><span class="info-tag tag-next">🏃 도보 이동 (5분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">10:15</span></td>
+                    <td>🌳 <strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Tokushima+Castle+Ruins" target="_blank">도쿠시마 성터 (중앙공원)</a> 산책</strong><br>• 호텔 바로 뒷마당 수준의 웅장한 돌 성벽 공원을 걸으며 아침 소화</td>
+                    <td><span class="info-tag tag-duration">⏱️ 산책 약 45분</span><br><span class="info-tag tag-next">🏃 도보 이동 (5분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">11:00</span></td>
+                    <td>🛍️ <strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=도쿠시마+클레멘트+플라자" target="_blank">클레멘트 플라자</a> 디저트 사냥</strong><br>• 명물 고구마(나루토 킨토키) 타르트 등 선물용 디저트 상점 미리 완파하기<br>💳 <span class="pay-card">카드 / 파스모 가능</span></td>
+                    <td><span class="info-tag tag-duration">⏱️ 쇼핑 약 45분</span><br><span class="info-tag tag-next">🏃 도보 이동 (15분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">12:00</span></td>
+                    <td>🐟 <strong>점심: <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Nihonryori+Ajisen+Tokushima" target="_blank">[일본요리 아지센]</a></strong><br>• 깊은 생선 육수 맛이 일품인 명물 <strong>도미 솥밥(鯛釜飯)</strong> 정식<br>💳 <span class="pay-card">카드 가능</span></td>
+                    <td><span class="info-tag tag-duration">⏱️ 식사 약 75분</span><br><span class="info-tag tag-next">🚌 시내버스 (15분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">13:30</span></td>
+                    <td>🛍️ <strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=이온몰+도쿠시마" target="_blank">이온몰 도쿠시마</a> 선공략</strong><br>• 도쿠시마역 4번 승차장에서 직행 버스로 편하게 진입!<br>• <u>필수 체크</u>: 1층 특산품 코너, 이온 마트 털기, 2~3층 무인양품 쇼핑<br>💳 <span class="pay-card">트래블월렛 / 파스모 가능</span></td>
+                    <td><span class="info-tag tag-duration">⏱️ 쇼핑 약 150분</span><br><span class="info-tag tag-next">🚕 택시 또는 도보 (5~15분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">16:30</span></td>
+                    <td>⚓ <strong>[선택 일정] <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Bandai+Chuo+Futo" target="_blank">반다이초 구경 (반다이 중앙부두)</a></strong><br>• 쇼핑 후 시간/체력 여유가 있다면 바로 옆 반다이초 감성 창고거리 무브!<br>🚕 이온몰에서 기본요금 수준 위치 (힘들면 바로 역으로 복귀 가능)</td>
+                    <td><span class="info-tag tag-optional">💡 유동적 결정 (60분)</span><br><span class="info-tag tag-next">🚌 시내버스 (15분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">18:30</span></td>
+                    <td>🥞 <strong>저녁: <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=도쿠시마역+오코노미야키" target="_blank">[역전 오코노미야키 전문점]</a></strong><br>• 달콤한 콩이 들어가 중독성 강한 단짠 명물 <strong>'마메다마(豆玉)'</strong>에 시원한 생맥주 한 잔 곁들이며 불금 보내기<br>💳 현금/카드 혼용</td>
+                    <td><span class="info-tag tag-duration">⏱️ 식사 약 90분</span><br><span class="info-tag tag-next">🏃 호텔 복귀 (도보 3분)</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ==================== 3일차 카드 ==================== -->
+    <div class="day-card day3">
+        <div class="day-header">📅 3일 차 (토요일) : 로컬 핫플 조식 & 전통 노포 투어 후 출국 (오픈런 최적화)</div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 15%;">시간</th>
+                    <th style="width: 55%;">일정 및 미식 내용</th>
+                    <th style="width: 30%;">소요 시간 및 이동</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="time-badge">08:30</span></td>
+                    <td>🧳 <strong>얼리 체크아웃 및 짐 보관</strong><br>• 호텔 프론트에 캐리어를 무료로 맡기고 가벼운 몸으로 비잔 산기슭으로 이동</td>
+                    <td><span class="info-tag tag-duration">⏱️ 정비 약 15분</span><br><span class="info-tag tag-next">🏃 도보 이동 (12분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">08:45</span></td>
+                    <td>🍳 <strong>[조식 대체] <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=朝昼ときど기夜+door" target="_blank">朝昼ときどき夜 door (때때로 저녁 door)</a></strong><br>• 현지인 대세 감성 카페에서 즐기는 갬성 가득 토스트 브런치와 아침 커피</td>
+                    <td><span class="info-tag tag-duration">⏱️ 식사 약 65분</span><br><span class="info-tag tag-next">🏃 도보 이동 (20분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">09:50</span></td>
+                    <td>⛩ " <strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=도쿠시마+테라마치" target="_blank">테라마치 사찰 거리 (경유)</a></strong><br>• <strong>★실전 도보 20분 검증 반영:</strong> 와다노야로 향하는 길목 전체가 사찰 거리!<br>• 따로 시간 내지 않고 이동하면서 사찰들을 눈으로 기분 좋게 스쳐 감상</td>
+                    <td><span class="info-tag tag-duration">⏱️ 산책 겸 이동 (20분)</span><br><span class="info-tag tag-next">🏃 와다노야 도착</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">10:10</span></td>
+                    <td>🍡 <strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=와다노야+본점" target="_blank">와다노야 본점 (和田의屋)</a></strong><br>• 400년 노포 매장 진입! 인공 폭포 정원을 보며 갓 구운 명물 <strong>'타키노 야키모치'와 말차 세트</strong> 조합으로 완벽 힐링<br>💵 세트 약 900엔 / <span class="pay-cash">현금 권장</span></td>
+                    <td><span class="info-tag tag-duration">⏱️ 디저트 약 60분</span><br><span class="info-tag tag-next">🏃 역전 이동 (15분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">11:30</span></td>
+                    <td>🍥 <strong>[시간 변경] 점심: <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=도노우라+에키마에점" target="_blank">[도노우라 에키마에점]</a></strong><br>• <strong>★11:30 정각 완전 오픈런 세이프!</strong> 웨이팅 제로 착석!<br>• 개운한 국물에 바삭한 도미 껍질 튀김이 올라간 감동의 <strong>도미 라멘</strong> 패스트 흡입<br>💵 <span class="pay-cash">현금 결제 권장</span></td>
+                    <td><span class="info-tag tag-duration">⏱️ 식사 약 45분</span><br><span class="info-tag tag-next">🏃 역 주변 무브</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">12:15</span></td>
+                    <td>🎁 <strong>출국 전 여유 시간 및 최종 정비</strong><br>• 식사를 일찍 마쳐 75분의 초여유 보너스 시간 확보!<br>• 역전 쇼핑몰을 구경하거나 카페에서 여유롭게 커피 마시며 여행 마무리</td>
+                    <td><span class="info-tag tag-duration">⏱️ 자유 시간 75분</span><br><span class="info-tag tag-next">🏃 호텔 짐 픽업</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">13:30</span></td>
+                    <td>🚌 <strong>호텔 캐리어 픽업 및 리무진 대기</strong><br>• 로비에서 보관했던 짐을 찾고 바로 앞 리무진 정류장에서 버스 대기</td>
+                    <td><span class="info-tag tag-duration">⏱️ 대기 약 25분</span><br><span class="info-tag tag-next">🚌 리무진 버스 (40분)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="time-badge">13:55</span></td>
+                    <td>✈️ <strong>도쿠시마역 리무진 출발 ➔ 인천행 비행기 세이프</strong><br>• 기사님께 <strong>무료 교통 패스</strong> 제시<br>• 14:35 공항 도착 후 16:30 출발 비행기 여유롭게 탑승!</td>
+                    <td>🚌 <span class="pay-card">무료 패스 사용</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
