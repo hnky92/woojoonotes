@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도쿠시마 2박 3일 미식·관광 일정표</title>
+    <style>
+        :root {
+            --primary-color: #2b6cb0;
+            --secondary-color: #ebf8ff;
+            --accent-color: #dd6b20;
+            --text-color: #2d3748;
+            --border-color: #e2e8f0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f7fafc;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            font-size: 0.9rem;
+            margin-bottom: 25px;
+        }
+
+        /* 꿀팁 박스 스타일 */
+        .tip-box {
+            background-color: var(--secondary-color);
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 25px;
+            font-size: 0.9rem;
+        }
+
+        .tip-box h3 {
+            margin: 0 0 8px 0;
+            color: var(--primary-color);
+        }
+
+        .tip-box ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        /* 테이블 스타일 */
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #edf2f7;
+            color: #4a5568;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background-color: #f8fafc;
+        }
+
+        /* 배지 스타일 */
+        .day-badge {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.8rem;
+            white-space: nowrap;
+        }
+
+        .pay-cash {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .pay-card {
+            color: #319795;
+            font-weight: bold;
+        }
+
+        /* 모바일 최적화 (화면이 작아지면 블록 형태로 변경) */
+        @media screen and (max-width: 600px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr {
+                border: 1px solid var(--border-color);
+                border-radius: 8px;
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #ffffff;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            }
+            td {
+                border: none;
+                padding: 6px 10px;
+                position: relative;
+            }
+            td:nth-of-type(1) {
+                font-weight: bold;
+                border-bottom: 1px solid #edf2f7;
+                padding-bottom: 8px;
+                margin-bottom: 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>✈️ 도쿠시마 2박 3일 일정표</h1>
+    <div class="subtitle">13:45 인천 출발 - 16:30 도쿠시마 출발 스케줄 맞춤형</div>
+
+    <div class="tip-box">
+        <h3>💡 도쿠시마 서바이벌 핵심 요약</h3>
+        <ul>
+            <li><strong>교통비 0원:</strong> 전 일정 공항에서 받는 <strong>무료 버스 패스</strong>로 종결!</li>
+            <li><strong>현금 필수 타이밍:</strong> 라멘집(이노타니, 멘오) 및 나루토 도미 솥밥집은 <span class="pay-cash">현금(지폐 및 동전)</span>이 필수적입니다.</li>
+            <li><strong>카드 타이밍:</strong> 편의점, 카페, 쇼핑몰, 로프웨이는 <strong>트래블월렛</strong>을 우선 사용하세요.</li>
+        </ul>
+    </div>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 12%;">일자</th>
+                    <th style="width: 12%;">시간</th>
+                    <th style="width: 46%;">일정 및 미식 내용</th>
+                    <th style="width: 30%;">결제 수단 및 팁</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 1일차 -->
+                <tr>
+                    <td><span class="day-badge">1일 차</span></td>
+                    <td>15:15</td>
+                    <td><strong>도쿠시마 공항 도착</strong><br>• 1층 종합안내소에서 '무료 버스 패스' 수령<br>• 세븐일레븐 뒤 이온 ATM에서 2인 예산(1.5~2만엔) 인출</td>
+                    <td>💵 이온 ATM 이용 시<br><span class="pay-card">인출 수수료 무료</span></td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">1일 차</span></td>
+                    <td>16:00</td>
+                    <td><strong>시내 이동 (리무진 버스)</strong><br>• 무료 버스 패스를 기사님께 보여주고 탑승 (도쿠시마역 약 40분 소요)</td>
+                    <td>🚌 <span class="pay-card">교통 패스 이용 (0원)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">1일 차</span></td>
+                    <td>17:30</td>
+                    <td><strong>🍜 저녁 1차: [이노타니 혼텐]</strong><br>• 원조 도쿠시마 라멘 격파! 진한 간장 돼지사골 육수 + 짭조름한 삼겹살 고명. 날달걀을 풀고 밥 추가는 필수!</td>
+                    <td>🎫 <span class="pay-cash">현금 결제</span><br>(입구 자판기 식권 방식)</td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">1일 차</span></td>
+                    <td>19:30</td>
+                    <td><strong>아와오도리 회관 & 비잔 로프웨이</strong><br>• 케이블카를 타고 비잔 전망대에 올라 도쿠시마 시내의 고즈넉한 야경 관람</td>
+                    <td>💳 <span class="pay-card">트래블월렛</span> 또는 <span class="pay-cash">현금</span> 둘 다 가능</td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">1일 차</span></td>
+                    <td>21:00</td>
+                    <td><strong>🍻 저녁 2차: 로컬 이자카야</strong><br>• 도쿠시마 명물 토종닭인 '아와오도리(阿波尾鶏)' 구이에 시원한 맥주나 하이볼 곁들이기</td>
+                    <td>💳 <span class="pay-card">트래블월렛 권장</span></td>
+                </tr>
+
+                <!-- 2일차 -->
+                <tr>
+                    <td><span class="day-badge">2일 차</span></td>
+                    <td>09:30</td>
+                    <td><strong>나루토 공원으로 이동</strong><br>• 도쿠시마역 앞 버스정류장에서 나루토 공원행 버스 탑승 (약 1시간 소요)</td>
+                    <td>🚌 <span class="pay-card">교통 패스 이용 (0원)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">2일 차</span></td>
+                    <td>11:00</td>
+                    <td><strong>포켓몬 스이쿤 맨홀 & 우즈노미치</strong><br>• 공원 근처 바닥의 <strong>'스이쿤 맨홀'</strong>과 인증샷 📸<br>• 바다 위 유리 바닥 다리인 '우즈노미치'에서 소용돌이 감상</td>
+                    <td>💳 <span class="pay-card">트래블월렛 가능</span><br>(우즈노미치 입장료)</td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">2일 차</span></td>
+                    <td>12:30</td>
+                    <td><strong>🐟 점심: [아라시] 또는 [빈비야]</strong><br>• 거센 조류에서 자라 쫄깃함이 일품인 <strong>도미 솥밥(타이메시)</strong>과 신선한 도미회 즐기기. 같이 나오는 미역국도 일품!</td>
+                    <td>💵 <span class="pay-cash">현금 준비 권장</span><br>(웨이팅 주의)</td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">2일 차</span></td>
+                    <td>15:00</td>
+                    <td><strong>🌊 우즈시오 유람선 탑승</strong><br>• 물때(소용돌이 시간)에 맞춰 대형 유람선을 타고 바다 한가운데에서 휘몰아치는 거대 소용돌이 관람</td>
+                    <td>💳 <span class="pay-card">트래블월렛</span> / <span class="pay-cash">현금</span></td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">2일 차</span></td>
+                    <td>18:00</td>
+                    <td><strong>🍥 저녁: [시오카제] 도미 라멘</strong><br>• 시내 복귀 전후로 방문. 맑고 깊은 감칠맛의 도미 육수 소금 라멘으로 속을 깔끔하게 정리</td>
+                    <td>💵 <span class="pay-cash">현금 결제</span></td>
+                </tr>
+
+                <!-- 3일차 -->
+                <tr>
+                    <td><span class="day-badge">3일 차</span></td>
+                    <td>10:00</td>
+                    <td><strong>기념품 쇼핑 및 고구마 디저트</strong><br>• 도쿠시마역 복합몰 및 드럭스토어 쇼핑<br>• 명물 고구마 '나루토 킨토키' 디저트와 카페 타임</td>
+                    <td>💳 <span class="pay-card">트래블월렛 적극 활용</span></td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">3일 차</span></td>
+                    <td>12:00</td>
+                    <td><strong>🍜 점심: [도쿠시마 라멘 멘오 본점]</strong><br>• 역 바로 앞에 위치. 첫날 먹은 이노타니 라멘과 맛을 비교해보며 마지막 미식 레이스 마무리!</td>
+                    <td>🎫 <span class="pay-cash">현금 결제</span><br>(자판기 주문)</td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">3일 차</span></td>
+                    <td>13:30</td>
+                    <td><strong>공항 리무진 버스 탑승</strong><br>• 매표소나 기사님께 무료 패스를 제시하고 공항행 버스 탑승</td>
+                    <td>🚌 <span class="pay-card">교통 패스 이용 (0원)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="day-badge">3일 차</span></td>
+                    <td>14:30</td>
+                    <td><strong>도쿠시마 공항 도착</strong><br>• 여유 있게 수속을 마치고 공항 면세 구역 구경 후 16:30 인천행 비행기 탑승</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
